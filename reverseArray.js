@@ -1,6 +1,5 @@
 let a = [1,2,3,4];
-
-function reverseArray(a) {
+export function reverseArray(a) {
     let reversenumbers = '';
     if(a === null){
         return '';
@@ -10,8 +9,4 @@ function reverseArray(a) {
 }
     return reversenumbers
 }
-    console.log(reverseArray(a));
-
-    console.log(reverseArray(null));
-    
-    console.log(reverseArray('shuntay'));
+console.log(reverseArray(a));
