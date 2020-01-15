@@ -15,8 +15,3 @@ function reverseArray(a) {
     console.log(reverseArray(null));
     
     console.log(reverseArray('shuntay'));
-    
-
-    //create a github rep
-    //name reverse array
-    //export this function
